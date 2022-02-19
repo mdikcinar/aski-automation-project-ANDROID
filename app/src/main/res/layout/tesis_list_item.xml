@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tesisItemConsLayaut"
+    android:background="@color/colorWhiteStatic">
+
+
+    <LinearLayout
+        android:id="@+id/linListeyeEkleSil"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivListItemEkleSil"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:outlineAmbientShadowColor="@color/colorHint"
+            android:outlineSpotShadowColor="@color/colorHint"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_add" />
+
+        <TextView
+            android:id="@+id/tvListItemEkleSil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listeye Ekle"
+            android:textColor="@color/colorHint"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivListItemTesisResmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:scaleType="centerInside"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@drawable/ic_cast"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvListItemTesisAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:text="Arıtma Tesisi Adı"
+        android:textColor="@color/colorHint"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivListItemTesisResmi"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvListeItemMesafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="0km"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ivListItemTesisResmi"
+        app:layout_constraintTop_toBottomOf="@+id/tvListItemTesisAdi" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "886376909140",
+    "firebase_url": "https://aski-otomasyon.firebaseio.com",
+    "project_id": "aski-otomasyon",
+    "storage_bucket": "aski-otomasyon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886376909140:android:9e5bcff89cae90968ae0c1",
+        "android_client_info": {
+          "package_name": "com.aski.askiotomasyon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886376909140-1qecgqarun2fff0lc8hdmdkukku7s4f8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCRnwASFNpxxblYCmu7ZXCkngOeAS-Tt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886376909140-1qecgqarun2fff0lc8hdmdkukku7s4f8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
